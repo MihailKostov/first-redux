@@ -3,7 +3,6 @@ import { useAppSelector } from '../app/hooks';
 import { actions as amountActions } from '../features/amount';
 
 export const Amount = () => {
-  // const [amount, setAmount] = useState(0);
   const dispatch = useDispatch();
   const amount = useAppSelector(state => state.amount);
 
